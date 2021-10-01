@@ -80,3 +80,11 @@
         - README.md에 정리한 기능 목록 단위
         - 의미있는 단위
     - https://gist.github.com/stephenparish/9941e89d80e2bc58a153를 참고해 commit log를 남기려고 노력해 본다.
+
+## 기능 목록
+    - 학습 테스트 진행하기
+        - [ ] 힌트 관련 용어 학습
+            - [ ] Assertj 학습(https://assertj.github.io/doc/)
+            - [x] [Junit5 학습](https://junit.org/junit5/docs/current/user-guide/#writing-tests-parameterized-tests)
+        - [ ] 테스트 패키지 생성 후 테스트
+        - [ ] 과제 제출을 위한 학습 테스트
