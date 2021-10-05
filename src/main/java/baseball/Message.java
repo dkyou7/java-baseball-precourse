@@ -8,7 +8,7 @@ public class Message {
     public static final String MESSAGE_STRIKE = "스트라이크";
     public static final String MESSAGE_BALL = "볼";
 
-    public static final String MESSAGE_3STRIKE = "3개의 숫자를 모두 맞히셨습니다! 게임 끝";
+    public static final String MESSAGE_3STRIKE = "게임 끝";
     public static final String MESSAGE_RESTART = "게임을 새로 시작하려면 1, 종료하려면 2를 입력하세요.";
     public final static String MESSAGE_VALIDATE_RESTART = "잘못된 문자를 입력하였습니다. 다시 입력해주세요.";
 

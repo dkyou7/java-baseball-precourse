@@ -10,7 +10,7 @@ import static baseball.Rule.MAX_NUMBER;
 
 public class Computer {
     public List<String> generateRandomNumber() {
-        Set<String> randomNumberSet = new HashSet<>();
+        List<String> randomNumberSet = new ArrayList<>();
         while (randomNumberSet.size() < SIZE_OF_DIGITS) {
             int randomNumber = Randoms.pickNumberInRange(MIN_NUMBER, MAX_NUMBER);
             randomNumberSet.add(String.valueOf(randomNumber));
