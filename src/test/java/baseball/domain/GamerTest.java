@@ -1,5 +1,6 @@
-package baseball;
+package baseball.domain;
 
+import baseball.domain.Gamer;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
