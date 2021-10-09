@@ -1,7 +1,5 @@
 package study;
 
-import jdk.jfr.Description;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -12,7 +10,6 @@ import java.util.HashSet;
 import java.util.Set;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 public class SetTest {
@@ -31,14 +28,12 @@ public class SetTest {
 
     @Test
     @DisplayName("요구사항1")
-    @Description("numbers 의 size 를 확인하는 테스트.")
     public void findNumbersSize() {
         int size = numbers.size();
         assertThat(size).isEqualTo(INIT_SIZE);
     }
 
     @DisplayName("요구사항2")
-    @Description("numbers 에 1,2,3의 문자열이 포함하는지 확인한다.")
     @ParameterizedTest
     @CsvSource({
             "1,2,3",
@@ -51,7 +46,6 @@ public class SetTest {
     }
 
     @DisplayName("요구사항2")
-    @Description("numbers 에 1,2,3의 문자열이 포함하는지 확인하는 테스트.")
     @ParameterizedTest
     @CsvSource({
             "4,5",
@@ -62,7 +56,6 @@ public class SetTest {
     }
 
     @DisplayName("요구사항3")
-    @Description("입력값에 따라 결과값이 달라지는 경우도 확인해보는 테스트.")
     @ParameterizedTest
     @CsvSource({
             "1,true",
